@@ -1,0 +1,82 @@
+.pagePadding {
+  padding: 0px 14px;
+}
+
+.aboutCont {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.aboutCont h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.aboutCont p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+}
+
+.links a {
+  text-decoration: none;
+  margin: 0px 10px;
+}
+
+.carousel {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+  height: 450px;
+  margin-top: 6px;
+}
+
+.carouselSlide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  transition: opacity 1s ease-in-out;
+}
+
+.carouselSlide img {
+  width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.carouselSlide.active {
+  opacity: 1;
+}
+
+/* services page css starts from here  */
+
+/* styles/services.css */
+.servicesContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0px 40px;
+}
+
+.service {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.service h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.service p {
+  font-size: 16px;
+}
